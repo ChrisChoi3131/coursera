@@ -1,0 +1,27 @@
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.hero .desc {
+  max-width: 300px;
+}
+
+.h1 {
+  color: rgb(25, 135, 84);
+}
